@@ -1,0 +1,149 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-size: cover;
+        background-image: url(bg.jpg);
+    }
+    #about{
+        margin-left: 100px;
+    }
+    
+    header {
+        background :rgba(255, 255,255, 0.2) ;
+        color: black;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    header h1 {
+        margin-bottom: 10px;
+    }
+    
+    nav ul {
+        list-style: none;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    nav ul li a {
+        color: black;
+        text-decoration: none;
+    }
+    a:hover{
+    background-color: black;
+     color:whitesmoke;
+  }
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .chef-bios h2{
+        color: white;
+    }
+    .container p{
+        background :rgba(255, 255,255, 0.4) ;
+        color: black;
+    }
+    
+    h2, h3, h4 {
+        margin-bottom: 10px;
+    }
+    
+    p {
+        margin-bottom: 20px;
+    }
+    
+    .chef-bios {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .chef {
+        flex: 0 0 calc(50% - 20px);
+        margin-bottom: 20px;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+    
+    .chef img {
+        width: 100%;
+        height: 80%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        background-image: url(chef1.jpg);
+    }
+    </style>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>About Us</title>
+        <link rel="icon" href="icon.png">
+    </head>
+    <body>
+        <header>
+            <h1>Know About Us</h1>
+            <nav>
+                <ul>
+                    <li><a href="home.html"><b>Home</b></a></li>
+                    <li><a href="menu.html"><b>Menu</b></a></li>
+                    <li><a href="reservation.html"><b>Reservation</b></a></li>
+                    <li><a href="contact.html"><b>Contact</b></a></li>
+                    <li><a href="about.html"><b>About Us</b></a></li>
+                    <li><a href="review.html"><b>Reviews</b></a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <section id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p><b>At our restaurant, we're more than just a place to eat – we're a culinary experience. Nestled in the heart of Chennai, our restaurant is a labor of love, founded on the principles of exceptional food, warm hospitality, and a vibrant atmosphere.
+
+                    Our Story
+                    
+                    Our journey began with a passion for bringing together flavors from around the world and crafting them into mouthwatering dishes that delight the senses. Inspired by both traditional recipes and contemporary culinary trends, our chefs pour their expertise and creativity into every plate that leaves our kitchen.
+                    
+                    Quality Ingredients, Crafted with Care
+                    
+                    We believe that great food starts with great ingredients. That's why we source the freshest, highest-quality produce, meats, and seafood available, working closely with local farmers and suppliers whenever possible. From farm to table, we ensure that each ingredient meets our exacting standards for taste, freshness, and sustainability.</b></p>
+                <div class="chef-bios">
+                    <h2>Meet Our Team</h2>
+                    <div class="chef">
+                        <img src="chef1.jpg" alt="Chef Name">
+                        <h4>Chef Rajath</h4>
+                        <p>He is the head chef at our Restaurant. There is always a good response for his recipes.</p>
+                    </div>
+                    <div class="chef">
+                        <img src="chef2.jpg" alt="Chef Name">
+                        <h4>Chef Kavinesh</h4>
+                        <p>He is a seasoned culinary artist known for his innovative dishes crafted with quality ingredients, earning widespread acclaim in the culinary world.</p>
+                    </div>
+                    <div class="chef">
+                        <img src="chef3.jpg" alt="Chef Name">
+                        <h4>Chef Beckham</h4>
+                        <p>He is known for his flavorful creations and attention to detail, delights diners with his passion for exquisite cuisine.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <footer>
+            <p>&copy; 2024 SRK Restaurant. All rights reserved.</p>
+        </footer>
+    </body>
+    </html>
